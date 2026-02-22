@@ -1,12 +1,10 @@
 //Load the data
 function jsAjax(){
     //use Fetch to retrieve data
-    fetch('watershed_c.json')
+    fetch('watershed_c.geojson')
         .then(conversion) //convert data to usable form
         .then(callback) //send retrieved data to a callback function
 };
-
-////// PART 2 //////////////////////////////////////////////////////////////////
 
 //declare global map variables
 var map;
@@ -32,8 +30,8 @@ function conversion(response){
         var wscproperties = feature.properties;
         var popupContent = " ";
 
-        if (wscproperties.altNAME){
-            popupContent += "<p>Watershed Council Name: " + wscproperties.altNAME +"</p>";
+        if (wscproperties.altName){
+            popupContent += "<p>Watershed Council Name: " + wscproperties.altName +"</p>";
         }
         if (wscproperties.WC_ID){
             popupContent += "<p>Watershed Council ID: " + wscproperties.WC_ID +"</p>";
@@ -55,10 +53,13 @@ function callback(response2){
         maxZoom: 19, 
         attribution: '&copy; <a href="https://www.mapbox.com/">Mapbox</a>, <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>, <a href="https://apps.mapbox.com/feedback/#/44.0/-120.5/6.1">Mapbox</a>'
     }).addTo(map);
-    
+    //'https://api.mapbox.com/styles/v1/karnstem/cmlx4vfhv000d01rjaxx380lj/tiles/256/{z}/{x}/{y}?access_token=pk.eyJ1Ijoia2FybnN0ZW0iLCJhIjoiY21seGZrYmNiMDA0czNlcHZrcjQ1dzg1ZCJ9.JUCwNbPY--UoMdP55vyNuw'
     //create geojson variable
     var geojson;
-
+//L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+  //  maxZoom: 19,
+   // attribution:'&copy; OpenStreetMap'
+//}).addTo(map);
     //ASSIGN CHOROPLETH MAP CHARACTERISTICS
     //create info display variable
     var info = L.control();
