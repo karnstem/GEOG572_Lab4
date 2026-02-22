@@ -14,12 +14,11 @@ var map;
 function style(feature) {
     return {
         fillColor: '#102c18',
-        FillOpacity: 0,
+        fillOpacity: 0,
         weight: 2,
         opacity: 1,
         color: 'white',
-        dashArray: '3',
-        fillOpacity: 0.7
+        dashArray: '3'
     };
 }
 //define conversion callback function
@@ -50,7 +49,7 @@ function callback(response2){
     //tasks using the data go here
     console.log(response2);
     //create map element
-    map = L.map('map1').setView([44.0, -120.5], 6.1);
+    map = L.map('map').setView([44.0, -120.5], 6.1);
     //add tile layer
     var tiles = L.tileLayer('https://api.mapbox.com/styles/v1/karnstem/cmlx4vfhv000d01rjaxx380lj/tiles/256/{z}/{x}/{y}?access_token=pk.eyJ1Ijoia2FybnN0ZW0iLCJhIjoiY21seGZrYmNiMDA0czNlcHZrcjQ1dzg1ZCJ9.JUCwNbPY--UoMdP55vyNuw', {
         maxZoom: 19, 
