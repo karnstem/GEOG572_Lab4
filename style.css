@@ -1,6 +1,136 @@
 h1{
     text-align: center;
     font-size: 30px;
-    color: #0a3323;
+    color: #098a58;
 }
 
+.Blue-Mountains {
+    color: #235a76;
+    background: none;
+    border: none;
+    box-shadow: none;
+    font-weight: bold;
+    font-size: 12px;
+    text-shadow:
+        -1px -1px 0 white,
+        1px -1px 0 white,
+        -1px 1px 0 white,
+        1px 1px 0 white;
+}
+.Willamette-Valley {
+    color: #b27ebe;
+    background: none;
+    border: none;
+    box-shadow: none;
+    font-weight: bold;
+    font-size: 12px;
+    text-shadow:
+        -1px -1px 0 white,
+        1px -1px 0 white,
+        -1px 1px 0 white,
+        1px 1px 0 white;
+}
+.Eastern-Cascades-Slopes-and-Foothills {
+    color: #65c8bf;
+    background: none;
+    border: none;
+    box-shadow: none;
+    font-weight: bold;
+    font-size: 12px;
+    text-shadow:
+        -1px -1px 0 white,
+        1px -1px 0 white,
+        -1px 1px 0 white,
+        1px 1px 0 white;
+}
+.Northern-Basin-and-Range {
+    color: #6478be;
+    background: none;
+    border: none;
+    box-shadow: none;
+    font-weight: bold;
+    font-size: 12px;
+    text-shadow:
+        -1px -1px 0 white,
+        1px -1px 0 white,
+        -1px 1px 0 white,
+        1px 1px 0 white;
+}
+.Columbia-Plateau {
+    color: #a78692;
+    background: none;
+    border: none;
+    box-shadow: none;
+    font-weight: bold;
+    font-size: 12px;
+    text-shadow:
+        -1px -1px 0 white,
+        1px -1px 0 white,
+        -1px 1px 0 white,
+        1px 1px 0 white;
+}
+.Klamath-Mountains {
+    color: #522f6a;
+    background: none;
+    border: none;
+    box-shadow: none;
+    font-weight: bold;
+    font-size: 12px;
+    text-shadow:
+        -1px -1px 0 white,
+        1px -1px 0 white,
+        -1px 1px 0 white,
+        1px 1px 0 white;
+}
+.Coast-Range {
+    color: #2f71bc;    
+    background: none;
+    border: none;
+    box-shadow: none;
+    font-weight: bold;
+    font-size: 12px;
+    text-shadow:
+        -1px -1px 0 white,
+        1px -1px 0 white,
+        -1px 1px 0 white,
+        1px 1px 0 white;
+}
+.Cascades {
+    color: #498d83;
+    background: none;
+    border: none;
+    box-shadow: none;
+    font-weight: bold;
+    font-size: 12px;
+    text-shadow:
+        -1px -1px 0 white,
+        1px -1px 0 white,
+        -1px 1px 0 white,
+        1px 1px 0 white;
+}
+.Snake-River-Plain {
+    color: #714c8a;
+    background: none;
+    border: none;
+    box-shadow: none;
+    font-weight: bold;
+    font-size: 12px;
+    text-shadow:
+        -1px -1px 0 white,
+        1px -1px 0 white,
+        -1px 1px 0 white,
+        1px 1px 0 white;
+
+.default-color {
+    color: #000000;
+    background: none;
+    border: none;
+    box-shadow: none;
+    font-weight: bold;
+    font-size: 12px;
+    text-shadow:
+        -1px -1px 0 white,
+        1px -1px 0 white,
+        -1px 1px 0 white,
+        1px 1px 0 white;
+}
